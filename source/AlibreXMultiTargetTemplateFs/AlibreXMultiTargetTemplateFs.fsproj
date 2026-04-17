@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net481;net8.0;net9.0</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AlibreX">
+      <HintPath>..\..\..\..\..\Program Files\Alibre Design 27.0.1.27039\Program\AlibreX.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
