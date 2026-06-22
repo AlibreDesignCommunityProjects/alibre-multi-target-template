@@ -3,6 +3,7 @@
   <PropertyGroup>
     <RootNamespace>AlibreXMultiTargetTemplateVb</RootNamespace>
     <TargetFrameworks>net481;net8.0;net9.0</TargetFrameworks>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net481|AnyCPU'">
@@ -23,7 +24,7 @@
 
   <ItemGroup>
     <Reference Include="AlibreX">
-      <HintPath>..\..\..\..\..\Program Files\Alibre Design 27.0.1.27039\Program\AlibreX.dll</HintPath>
+      <HintPath>C:\Program Files\Alibre Design 29.0.0.29060\Program\AlibreX.dll</HintPath>
     </Reference>
   </ItemGroup>
 
