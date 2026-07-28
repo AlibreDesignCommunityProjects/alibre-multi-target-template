@@ -14,5 +14,4 @@
   - Where things live
     - `source/` holds the solution and the three project skeletons.
     - `documentation/` holds reference notes.
-    - `reviews/` holds dated code reviews.
   - Use it under the MIT License.
